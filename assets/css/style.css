@@ -22,7 +22,13 @@ body {
     margin: 0 auto;
 }
 
-img {
+.decoration {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.hero-image img {
     max-width: 348px;
     margin-top: 160px;
 }
@@ -58,4 +64,8 @@ footer {
 
 footer a {
     margin-left: 16px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
